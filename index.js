@@ -4390,7 +4390,7 @@ function createCategoryEmbedV2(category, executor) {
     // Category content mapping for Components v2 UI
     const categoryContent = {
         'category_extra_owner': {
-            title: '✗ 𖹭 **Extra Owner System**',
+            title: ' **𝗘𝗫𝗧𝗥𝗔 𝗢𝗪𝗡𝗘𝗥 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Bot Owner Only**\n${separator}\n` +
                 `**ᡣ𐭩 Owner Commands**\n` +
                 `➤ \`extra owner @user\` - Grant permanent owner\n` +
@@ -4403,7 +4403,7 @@ function createCategoryEmbedV2(category, executor) {
                 `✅ Auto-expire for temp owners`
         },
         'category_quarantine': {
-            title: '✗ 𖹭 **Quarantine & Moderation**',
+            title: ' **𝗤𝗨𝗥𝗔𝗡𝗧𝗜𝗔𝗡𝗘 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Quarantine Commands**\n` +
                 `➤ \`qr @user [duration]\` - Quarantine user\n` +
@@ -4418,7 +4418,7 @@ function createCategoryEmbedV2(category, executor) {
                 `➤ \`slowmode <seconds>\` - Set slowmode`
         },
         'category_roles': {
-            title: '✗ 𖹭 **Role Management**',
+            title: '**𝗥𝗢𝗟𝗘 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧 **',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Basic Role Commands**\n` +
                 `➤ \`addrole @user @role\` - Add role\n` +
@@ -4437,7 +4437,7 @@ function createCategoryEmbedV2(category, executor) {
                 `➤ \`addtr @user\` - Grant interim`
         },
         'category_voice': {
-            title: '✗ 𖹭 **Voice Management**',
+            title: '**𝗩𝗢𝗜𝗖𝗘  𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧 **',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Individual Control**\n` +
                 `➤ \`vmute @user\` - Voice mute\n` +
@@ -4454,7 +4454,7 @@ function createCategoryEmbedV2(category, executor) {
                 `➤ \`vdefended\` - List defended`
         },
         'category_channels': {
-            title: '✗ 𖹭 **Channel Management**',
+            title: ' **𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Text Channels**\n` +
                 `➤ \`lock\` / \`unlock\` - Lock/unlock channel\n` +
@@ -4471,7 +4471,7 @@ function createCategoryEmbedV2(category, executor) {
                 `➤ \`setnsfw\` / \`unsetnsfw\` - NSFW toggle`
         },
         'category_media': {
-            title: '✗ 𖹭 **Media & Threads**',
+            title: ' **𝗠𝗘𝗗𝗜𝗔 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Media Channels**\n` +
                 `➤ \`enablemedia\` - Enable media only\n` +
@@ -4485,7 +4485,7 @@ function createCategoryEmbedV2(category, executor) {
                 `➤ \`deletethread\` - Delete thread`
         },
         'category_automod': {
-            title: '✗ 𖹭 **Auto-Moderation**',
+            title: '**𝗔𝗨𝗧𝗢𝗠𝗢𝗗𝗦 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 AutoMod Commands**\n` +
                 `➤ \`automod <enable/disable>\` - Toggle automod\n` +
@@ -4500,7 +4500,7 @@ function createCategoryEmbedV2(category, executor) {
                 `✅ AI-powered detection`
         },
         'category_protection': {
-            title: '✗ 𖹭 **Bot & User Protection**',
+            title: '**𝗕𝗢𝗧 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Bot Whitelist**\n` +
                 `➤ \`whitelist <botId>\` - Whitelist bot\n` +
@@ -4516,7 +4516,7 @@ function createCategoryEmbedV2(category, executor) {
                 `➤ \`scanserver\` - Scan for threats`
         },
         'category_server': {
-            title: '✗ 𖹭 **Server Management**',
+            title: ' **𝗦𝗘𝗥𝗩𝗘𝗥 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Server Commands**\n` +
                 `➤ \`serverinfo\` - Server information\n` +
@@ -4533,7 +4533,7 @@ function createCategoryEmbedV2(category, executor) {
                 `✅ Template restoration`
         },
         'category_ticket': {
-            title: '✗ 𖹭 **Ticket System**',
+            title: ' **𝗧𝗜𝗖𝗞𝗘𝗧 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Ticket Commands**\n` +
                 `➤ \`ticket\` - Create ticket panel\n` +
@@ -4549,7 +4549,7 @@ function createCategoryEmbedV2(category, executor) {
                 `✅ One ticket per user`
         },
         'category_utility': {
-            title: '✗ 𖹭 **Utility Commands**',
+            title: ' **𝗨𝗧𝗜𝗟𝗜𝗧𝗬 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **All Channels**\n${separator}\n` +
                 `**ᡣ𐭩 Information Commands**\n` +
                 `➤ \`ping\` - Check bot latency\n` +
@@ -4562,7 +4562,7 @@ function createCategoryEmbedV2(category, executor) {
                 `➤ \`help\` - Show this help menu`
         },
         'category_developer': {
-            title: '✗ 𖹭 **Developer Information**',
+            title: '**𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 𝗜𝗡𝗙𝗢**',
             content: `**Total Commands:** ${totalCommands}\n${separator}\n` +
                 `**ᡣ𐭩 About**\n` +
                 `Made with ➤ by **script.agi** at scriptspace\n${separator}\n` +
