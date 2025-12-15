@@ -4392,12 +4392,12 @@ function createCategoryEmbedV2(category, executor) {
         'category_extra_owner': {
             title: ' **𝗘𝗫𝗧𝗥𝗔 𝗢𝗪𝗡𝗘𝗥 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Bot Owner Only**\n${separator}\n` +
-                `**ᡣ𐭩 Owner Commands**\n` +
-                `➤ \`extra owner @user\` - Grant permanent owner\n` +
-                `➤ \`temp owner @user [duration]\` - Temporary owner\n` +
-                `➤ \`remove owner @user\` - Remove owner status\n` +
-                `➤ \`list owners\` - Show all owners\n${separator}\n` +
-                `**ᡣ𐭩 Features**\n` +
+                `** Owner Commands**\n` +
+                ` \`extra owner @user\` - Grant permanent owner\n` +
+                ` \`temp owner @user [duration]\` - Temporary owner\n` +
+                ` \`remove owner @user\` - Remove owner status\n` +
+                ` \`list owners\` - Show all owners\n${separator}\n` +
+                `** Features**\n` +
                 `✅ Full server immunity\n` +
                 `✅ Permanent or temporary access\n` +
                 `✅ Auto-expire for temp owners`
@@ -4405,93 +4405,93 @@ function createCategoryEmbedV2(category, executor) {
         'category_quarantine': {
             title: ' **𝗤𝗨𝗥𝗔𝗡𝗧𝗜𝗔𝗡𝗘 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
-                `**ᡣ𐭩 Quarantine Commands**\n` +
-                `➤ \`qr @user [duration]\` - Quarantine user\n` +
-                `➤ \`uq @user\` - Remove quarantine\n${separator}\n` +
+                `**Quarantine Commands**\n` +
+                `\`qr @user [duration]\` - Quarantine user\n` +
+                `\`uq @user\` - Remove quarantine\n${separator}\n` +
                 `**ᡣ𐭩 Moderation Commands**\n` +
-                `➤ \`kick @user [reason]\` - Kick user\n` +
-                `➤ \`ban @user [reason]\` - Ban user\n` +
-                `➤ \`mute @user [reason]\` - Mute user\n` +
-                `➤ \`unmute @user\` - Unmute user\n` +
-                `➤ \`warn @user [reason]\` - Warn user\n` +
-                `➤ \`clear <number>\` - Delete messages\n` +
-                `➤ \`slowmode <seconds>\` - Set slowmode`
+                `\`kick @user [reason]\` - Kick user\n` +
+                `\`ban @user [reason]\` - Ban user\n` +
+                `\`mute @user [reason]\` - Mute user\n` +
+                `\`unmute @user\` - Unmute user\n` +
+                `\`warn @user [reason]\` - Warn user\n` +
+                `\`clear <number>\` - Delete messages\n` +
+                `\`slowmode <seconds>\` - Set slowmode`
         },
         'category_roles': {
             title: '**𝗥𝗢𝗟𝗘 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧 **',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Basic Role Commands**\n` +
-                `➤ \`addrole @user @role\` - Add role\n` +
-                `➤ \`removerole @user @role\` - Remove role\n` +
-                `➤ \`roles\` - Show all roles\n${separator}\n` +
+                `\`addrole @user @role\` - Add role\n` +
+                `\`removerole @user @role\` - Remove role\n` +
+                `\`roles\` - Show all roles\n${separator}\n` +
                 `**ᡣ𐭩 Advanced Role Commands**\n` +
-                `➤ \`createrole <name>\` / \`cr\` - Create role\n` +
-                `➤ \`deleterole @role\` / \`dr\` - Delete role\n` +
-                `➤ \`editrole @role\` / \`er\` - Edit role\n` +
-                `➤ \`roleinfo @role\` / \`ri\` - Role info\n` +
-                `➤ \`inrole @role\` - List members\n` +
-                `➤ \`removeallroles @user\` - Remove all roles\n${separator}\n` +
+                `\`createrole <name>\` / \`cr\` - Create role\n` +
+                `\`deleterole @role\` / \`dr\` - Delete role\n` +
+                `\`editrole @role\` / \`er\` - Edit role\n` +
+                `\`roleinfo @role\` / \`ri\` - Role info\n` +
+                `\`inrole @role\` - List members\n` +
+                `\`removeallroles @user\` - Remove all roles\n${separator}\n` +
                 `**ᡣ𐭩 Interim Role Commands**\n` +
-                `➤ \`prmtr @user\` - Make permanent\n` +
-                `➤ \`revtr @user\` - Revoke interim\n` +
-                `➤ \`addtr @user\` - Grant interim`
+                `\`prmtr @user\` - Make permanent\n` +
+                `\`revtr @user\` - Revoke interim\n` +
+                `\`addtr @user\` - Grant interim`
         },
         'category_voice': {
             title: '**𝗩𝗢𝗜𝗖𝗘  𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧 **',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Individual Control**\n` +
-                `➤ \`vmute @user\` - Voice mute\n` +
-                `➤ \`vunmute @user\` - Voice unmute\n` +
-                `➤ \`muv @user\` - Move to quarantine VC\n` +
+                `\`vmute @user\` - Voice mute\n` +
+                `\`vunmute @user\` - Voice unmute\n` +
+                `\`muv @user\` - Move to quarantine VC\n` +
                 `➤ \`muvu @user\` - Restore from quarantine\n${separator}\n` +
                 `**ᡣ𐭩 Mass Control**\n` +
-                `➤ \`vmuteall\` - Mute all in VC\n` +
-                `➤ \`vunmuteall\` - Unmute all\n${separator}\n` +
+                `\`vmuteall\` - Mute all in VC\n` +
+                `\`vunmuteall\` - Unmute all\n${separator}\n` +
                 `**ᡣ𐭩 Voice Defend**\n` +
-                `➤ \`vdefend @user\` - Prevent disconnect\n` +
-                `➤ \`vundefend @user\` - Remove defend\n` +
-                `➤ \`vdefendall\` - Defend all\n` +
-                `➤ \`vdefended\` - List defended`
+                `\`vdefend @user\` - Prevent disconnect\n` +
+                `\`vundefend @user\` - Remove defend\n` +
+                `\`vdefendall\` - Defend all\n` +
+                `\`vdefended\` - List defended`
         },
         'category_channels': {
             title: ' **𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Text Channels**\n` +
-                `➤ \`lock\` / \`unlock\` - Lock/unlock channel\n` +
-                `➤ \`hide\` / \`show\` - Hide/show channel\n` +
-                `➤ \`nuke\` - Clone and delete channel\n${separator}\n` +
+                `\`lock\` / \`unlock\` - Lock/unlock channel\n` +
+                `\`hide\` / \`show\` - Hide/show channel\n` +
+                `\`nuke\` - Clone and delete channel\n${separator}\n` +
                 `**ᡣ𐭩 Voice Channels**\n` +
-                `➤ \`lockvc\` / \`unlockvc\` - Lock/unlock VC\n` +
-                `➤ \`hidevc\` / \`showvc\` - Hide/show VC\n` +
-                `➤ \`limit <num>\` - Set user limit\n` +
-                `➤ \`bitrate <kbps>\` - Set bitrate\n${separator}\n` +
+                `\`lockvc\` / \`unlockvc\` - Lock/unlock VC\n` +
+                `\`hidevc\` / \`showvc\` - Hide/show VC\n` +
+                `\`limit <num>\` - Set user limit\n` +
+                `\`bitrate <kbps>\` - Set bitrate\n${separator}\n` +
                 `**ᡣ𐭩 Advanced**\n` +
-                `➤ \`lockall\` / \`unlockall\` - All channels\n` +
-                `➤ \`locklinks\` / \`unlocklinks\` - Link control\n` +
-                `➤ \`setnsfw\` / \`unsetnsfw\` - NSFW toggle`
+                `\`lockall\` / \`unlockall\` - All channels\n` +
+                `\`locklinks\` / \`unlocklinks\` - Link control\n` +
+                `\`setnsfw\` / \`unsetnsfw\` - NSFW toggle`
         },
         'category_media': {
             title: ' **𝗠𝗘𝗗𝗜𝗔 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Media Channels**\n` +
-                `➤ \`enablemedia\` - Enable media only\n` +
-                `➤ \`disablemedia\` - Disable media only\n` +
-                `➤ \`mediaslowmode <sec>\` - Set slowmode\n` +
-                `➤ \`lockmedia\` / \`unlockmedia\` - Lock/unlock\n${separator}\n` +
+                `\`enablemedia\` - Enable media only\n` +
+                `\`disablemedia\` - Disable media only\n` +
+                `\`mediaslowmode <sec>\` - Set slowmode\n` +
+                `\`lockmedia\` / \`unlockmedia\` - Lock/unlock\n${separator}\n` +
                 `**ᡣ𐭩 Thread Management**\n` +
-                `➤ \`createthread <name>\` - Create thread\n` +
-                `➤ \`lockthread\` / \`unlockthread\` - Lock/unlock\n` +
-                `➤ \`archivethread\` / \`unarchivethread\` - Archive\n` +
-                `➤ \`deletethread\` - Delete thread`
+                `\`createthread <name>\` - Create thread\n` +
+                `\`lockthread\` / \`unlockthread\` - Lock/unlock\n` +
+                `\`archivethread\` / \`unarchivethread\` - Archive\n` +
+                `\`deletethread\` - Delete thread`
         },
         'category_automod': {
             title: '**𝗔𝗨𝗧𝗢𝗠𝗢𝗗𝗦 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 AutoMod Commands**\n` +
-                `➤ \`automod <enable/disable>\` - Toggle automod\n` +
-                `➤ \`automodconfig\` - View config\n` +
-                `➤ \`blacklist <add/remove> <word>\` - Word filter\n` +
-                `➤ \`clearwarnings @user\` - Clear warnings\n${separator}\n` +
+                `\`automod <enable/disable>\` - Toggle automod\n` +
+                `\`automodconfig\` - View config\n` +
+                `\`blacklist <add/remove> <word>\` - Word filter\n` +
+                `\`clearwarnings @user\` - Clear warnings\n${separator}\n` +
                 `**ᡣ𐭩 Features**\n` +
                 `✅ Word/phrase blacklist\n` +
                 `✅ Spam detection\n` +
@@ -4503,30 +4503,30 @@ function createCategoryEmbedV2(category, executor) {
             title: '**𝗕𝗢𝗧 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Bot Whitelist**\n` +
-                `➤ \`whitelist <botId>\` - Whitelist bot\n` +
-                `➤ \`unwhitelist <botId>\` - Remove whitelist\n` +
-                `➤ \`whitelisted\` - Show whitelisted\n${separator}\n` +
+                `\`whitelist <botId>\` - Whitelist bot\n` +
+                `\`unwhitelist <botId>\` - Remove whitelist\n` +
+                `\`whitelisted\` - Show whitelisted\n${separator}\n` +
                 `**ᡣ𐭩 User Protection**\n` +
-                `➤ \`protect @user\` - Add protection\n` +
-                `➤ \`unprotect @user\` - Remove protection\n` +
-                `➤ \`protected\` - List protected\n${separator}\n` +
+                `\`protect @user\` - Add protection\n` +
+                `\`unprotect @user\` - Remove protection\n` +
+                `\`protected\` - List protected\n${separator}\n` +
                 `**ᡣ𐭩 Security**\n` +
-                `➤ \`flagged\` - Show flagged\n` +
-                `➤ \`unflag @user\` - Remove flag\n` +
-                `➤ \`scanserver\` - Scan for threats`
+                `\`flagged\` - Show flagged\n` +
+                `\`unflag @user\` - Remove flag\n` +
+                `\`scanserver\` - Scan for threats`
         },
         'category_server': {
             title: ' **𝗦𝗘𝗥𝗩𝗘𝗥 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Server Commands**\n` +
-                `➤ \`serverinfo\` - Server information\n` +
-                `➤ \`serverlogo\` - Get server logo\n` +
-                `➤ \`srvpasuse\` - Pause invites\n${separator}\n` +
+                `\`serverinfo\` - Server information\n` +
+                `\`serverlogo\` - Get server logo\n` +
+                `\`srvpasuse\` - Pause invites\n${separator}\n` +
                 `**ᡣ𐭩 Emergency Commands**\n` +
-                `➤ \`panic\` / \`panicmode\` - Lock all\n` +
-                `➤ \`stop panic\` - Unlock all\n` +
-                `➤ \`emergency\` - Maximum lockdown\n` +
-                `➤ \`end emergency\` - End lockdown\n${separator}\n` +
+                `\`panic\` / \`panicmode\` - Lock all\n` +
+                `\`stop panic\` - Unlock all\n` +
+                `\`emergency\` - Maximum lockdown\n` +
+                `\`end emergency\` - End lockdown\n${separator}\n` +
                 `**ᡣ𐭩 Protection**\n` +
                 `✅ Anti-nuke system\n` +
                 `✅ Anti-raid detection\n` +
@@ -4536,11 +4536,11 @@ function createCategoryEmbedV2(category, executor) {
             title: ' **𝗧𝗜𝗖𝗞𝗘𝗧 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **Owner/Admin Only**\n${separator}\n` +
                 `**ᡣ𐭩 Ticket Commands**\n` +
-                `➤ \`ticket\` - Create ticket panel\n` +
-                `➤ \`ticket "message"\` - Custom message\n` +
-                `➤ \`ticket "message" @role\` - With role ping\n` +
-                `➤ \`ticketopen\` - Create custom panel\n` +
-                `➤ \`ticketclose\` - Close current ticket\n${separator}\n` +
+                `\`ticket\` - Create ticket panel\n` +
+                `\`ticket "message"\` - Custom message\n` +
+                `\`ticket "message" @role\` - With role ping\n` +
+                `\`ticketopen\` - Create custom panel\n` +
+                `\`ticketclose\` - Close current ticket\n${separator}\n` +
                 `**ᡣ𐭩 Features**\n` +
                 `✅ Button-based creation\n` +
                 `✅ Auto private channels\n` +
@@ -4552,14 +4552,14 @@ function createCategoryEmbedV2(category, executor) {
             title: ' **𝗨𝗧𝗜𝗟𝗜𝗧𝗬 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**',
             content: `**Total Commands:** ${totalCommands} • **All Channels**\n${separator}\n` +
                 `**ᡣ𐭩 Information Commands**\n` +
-                `➤ \`ping\` - Check bot latency\n` +
-                `➤ \`ui @user\` / \`userinfo\` - User info\n` +
-                `➤ \`serverinfo\` - Server information\n` +
-                `➤ \`avatar @user\` - Get user avatar\n` +
-                `➤ \`banner @user\` - Get user banner\n${separator}\n` +
+                `\`ping\` - Check bot latency\n` +
+                `\`ui @user\` / \`userinfo\` - User info\n` +
+                `\`serverinfo\` - Server information\n` +
+                `\`avatar @user\` - Get user avatar\n` +
+                `\`banner @user\` - Get user banner\n${separator}\n` +
                 `**ᡣ𐭩 Bot Commands**\n` +
-                `➤ \`dev\` - Developer information\n` +
-                `➤ \`help\` - Show this help menu`
+                `\`dev\` - Developer information\n` +
+                `\`help\` - Show this help menu`
         },
         'category_developer': {
             title: '**𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 𝗜𝗡𝗙𝗢**',
