@@ -3420,7 +3420,7 @@ function createHelpCard1() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **Extra Owner System**')
+        .setTitle(' **𝗘𝗫𝗧𝗥𝗔 𝗢𝗪𝗡𝗘𝗥 𝗦𝗬𝗦𝗧𝗘𝗠𝗦**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Bot Owner Only**\n\n` +
             `**ᡣ𐭩 Extra Owner Management**\n` +
             `➤ \`extra owner @user\` - Grant permanent extra owner (full immunity)\n` +
@@ -3450,9 +3450,9 @@ function createHelpCard2() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **Quarantine & Basic Moderation**')
+        .setTitle( '**𝗤𝗨𝗥𝗔𝗡𝗧𝗜𝗔𝗡𝗘**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Owner/Admin Channel Only**\n\n` +
-            `**ᡣ𐭩 Quarantine System**\n` +
+            `**ᡣ𐭩 𝗤𝗨𝗥𝗔𝗡𝗧𝗜𝗡𝗘 𝗦𝗬𝗦𝗧𝗘𝗠𝗦**\n` +
             `➤ \`qr @user [duration]\` - Quarantine user\n` +
             `➤ \`uq @user\` - Remove quarantine\n` +
             `✿ **Durations:** 5m, 10m, 15m, 30m, 1h, 2h, 4h, 8h, 12h, 1d, 2d, 3d, 1w, 2w, 28d\n\n` +
@@ -3487,7 +3487,7 @@ function createHelpCard3() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **Basic Role & Music Configuration**')
+        .setTitle('**𝗥𝗢𝗟𝗘𝗦 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Owner/Admin Channel Only**\n\n` +
             `**ᡣ𐭩 Basic Role Management**\n` +
             `➤ \`addrole @user @role\` - Add role to user\n` +
@@ -3519,7 +3519,7 @@ function createHelpCard4() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **Advanced Role Management**')
+        .setTitle(' **𝗔𝗗𝗩𝗔𝗡𝗖𝗘𝗗 𝗥𝗢𝗟𝗘𝗦 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Owner/Admin Channel Only**\n\n` +
             `**ᡣ𐭩 Advanced Role Commands**\n` +
             `➤ \`createrole <name> [color] [hoist] [mentionable]\` / \`cr\` - Create role\n` +
@@ -3551,7 +3551,7 @@ function createHelpCard5() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **Interim Role & Widget Management**')
+        .setTitle('**𝗜𝗡𝗧𝗘𝗥𝗜𝗠 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Owner/Admin Channel Only**\n\n` +
             `**ᡣ𐭩 Interim Role Management**\n` +
             `➤ \`prmtr @user\` - Make interim role permanent\n` +
@@ -3589,7 +3589,7 @@ function createHelpCard6() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **Emergency Commands**')
+        .setTitle('**𝗘𝗠𝗘𝗥𝗚𝗘𝗡𝗖𝗬 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Owner/Admin Channel Only**\n\n` +
 
             `**🚨 Emergency Commands**\n` +
@@ -3632,7 +3632,7 @@ function createHelpCard7() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **Configuration & Testing**')
+        .setTitle(' **𝗖𝗢𝗡𝗙𝗜𝗚 𝗔𝗡𝗗 𝗧𝗘𝗦𝗧𝗜𝗡𝗚**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Owner/Admin Channel Only**\n\n` +
 
             `**ᡣ𐭩 Configuration Commands**\n` +
@@ -3678,7 +3678,7 @@ function createHelpCard8() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **God-Level Protection Features**')
+        .setTitle(' **𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Owner/Admin Channel Only**\n\n` +
 
             `**🛡️ Ultimate Protection System**\n` +
@@ -3725,7 +3725,7 @@ function createHelpCard9() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **Technical Specifications**')
+        .setTitle(' **𝗦𝗣𝗘𝗖𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡𝗦**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Owner/Admin Channel Only**\n\n` +
 
             `**🔧 Advanced Features**\n` +
@@ -3770,7 +3770,7 @@ function createHelpCard10() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **Developer Information**')
+        .setTitle('**𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 𝗜𝗡𝗙𝗢**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Owner/Admin Channel Only**\n\n` +
 
             `**✿ About the Developer**\n` +
@@ -3817,7 +3817,7 @@ function createHelpCard11() {
             name: 'Quarantianizo made at discord.gg/scriptspace by script.agi',
             iconURL: 'https://cdn.discordapp.com/attachments/1438520973300338871/1439364441492816163/InShot_20251115_124839476.jpg?ex=691a4018&is=6918ee98&hm=66e891ba77134ca48725774137a29bd0aec7ea1442a7840125442f050ace00dc&'
         })
-        .setTitle('✗ 𖹭 **Ticket Management Systems**')
+        .setTitle(' **𝗧𝗜𝗖𝗞𝗘𝗧 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧**')
         .setDescription(`**Total Commands:** ${totalCommands} • **Admin Channel / Authorized Users**\n\n` +
 
             `**🎫 Ticket System Commands**\n` +
